@@ -1,5 +1,6 @@
 @import"config";
 @import"responsive";
+@import"menus-layout";
 
 body{margin:0;
     font-family:sans-serif;}
@@ -24,7 +25,7 @@ main{
    margin-bottom:150px;
    .row{display: flex;
        justify-content: space-evenly;}
-       section{
+       .menu{
            box-shadow:0px 0px 5px 6px #f1f1f1;
            padding:20px;
            margin-top:50px;
