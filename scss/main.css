@@ -39,6 +39,10 @@
           align-items: center;
 }
 
+.page1 h2 {
+  font-size: 40px;
+}
+
 header a {
   text-decoration: none;
 }
@@ -89,6 +93,30 @@ p {
           align-items: center;
 }
 
+.first {
+  background-color: #ffcdd2;
+}
+
+.first a, .first h3 {
+  font-family: 'Devonshire', cursive;
+  font-size: 35px;
+}
+
+.second a, .second h3 {
+  font-family: 'Croissant One', cursive;
+  font-size: 25px;
+}
+
+.third a, .third h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+}
+
+.fourth a, .fourth h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -114,7 +142,7 @@ header {
 
 header h1 {
   color: #ffb74d;
-  font-size: 60px;
+  font-size: 55px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -184,22 +212,6 @@ main button {
   border-radius: 20px;
   margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
-}
-
-.first a {
-  font-family: 'Devonshire', cursive;
-}
-
-.second a {
-  font-family: 'Croissant One', cursive;
-}
-
-.third a {
-  font-family: 'Dancing Script', cursive;
-}
-
-.fourth a {
-  font-family: 'Kaushan Script', cursive;
 }
 
 footer {

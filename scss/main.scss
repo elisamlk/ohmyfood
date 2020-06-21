@@ -16,7 +16,7 @@ header{
    justify-content: center;
    align-items:center;
    h1{color:$color-secondary;
-      font-size:60px;
+      font-size:55px;
       font-family: 'Montserrat', sans-serif;}
 }
 
@@ -52,23 +52,6 @@ main{
                     margin-top:50px;
                     font-family: 'Montserrat', sans-serif;}
 }
-
-.first{
-   a{font-family: 'Devonshire', cursive;}
-}
-
-.second{
-   a{font-family: 'Croissant One', cursive;}
-}
-
-.third{
-   a{font-family: 'Dancing Script', cursive;}
-}
-
-.fourth{
-   a{font-family: 'Kaushan Script', cursive;}
-}
-
 
 footer{
    background-color:$color-primary;
