@@ -1,4 +1,5 @@
 @import"config";
+@import"responsive";
 
 body{margin:0;
     font-family:sans-serif;}
@@ -14,7 +15,7 @@ header{
    justify-content: center;
    align-items:center;
    h1{color:$color-secondary;
-      font-size:65px;}
+      font-size:60px;}
 }
 
 main{
@@ -24,9 +25,9 @@ main{
    .row{display: flex;
        justify-content: space-evenly;}
        section{
+           box-shadow:0px 0px 5px 6px #f1f1f1;
            padding:20px;
            margin-top:50px;
-           border:1px lightgrey solid;
            height:420px;
            flex-basis:25%;}
            a{display:flex;
@@ -60,5 +61,6 @@ footer{
    width:100%;
    a{display: flex;
      text-decoration: none;
-     font-size:25px;}
+     font-size:25px;
+     color:$color-secondary;}
    }
