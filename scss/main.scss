@@ -16,7 +16,8 @@ header{
    justify-content: center;
    align-items:center;
    h1{color:$color-secondary;
-      font-size:60px;}
+      font-size:60px;
+      font-family: 'Montserrat', sans-serif;}
 }
 
 main{
@@ -48,8 +49,26 @@ main{
                     font-size:30px;
                     color:$color-secondary;
                     border-radius:20px;
-                    margin-top:50px;}
+                    margin-top:50px;
+                    font-family: 'Montserrat', sans-serif;}
 }
+
+.first{
+   a{font-family: 'Devonshire', cursive;}
+}
+
+.second{
+   a{font-family: 'Croissant One', cursive;}
+}
+
+.third{
+   a{font-family: 'Dancing Script', cursive;}
+}
+
+.fourth{
+   a{font-family: 'Kaushan Script', cursive;}
+}
+
 
 footer{
    background-color:$color-primary;
@@ -63,5 +82,7 @@ footer{
    a{display: flex;
      text-decoration: none;
      font-size:25px;
-     color:$color-secondary;}
+     color:$color-secondary;
+     font-family: 'Montserrat', sans-serif;
+}
    }
