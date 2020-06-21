@@ -34,29 +34,23 @@ p{display: flex;
   a,h3{font-family: 'Devonshire', cursive;
        color:$color-fourth;
        font-size:35px;}
-  
 }
 
 .second{
-  a,h3{font-family: 'Croissant One', cursive;
-       font-size:35px;
-       background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;}
-}
+  a {font-family: 'Croissant One', cursive;
+     font-size:25px;}
+  }
 
 .third{
-  a,h3{font-family: 'Dancing Script', cursive;  
-       font-size:40px;
-       background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;}
+  a{font-family: 'Dancing Script', cursive;  
+    font-size:35px;}
+  }
+  
+.fourth{
+  a{font-family: 'Kaushan Script', cursive;
+    font-size:35px;}
 }
 
-.fourth{
-  a,h3{font-family: 'Kaushan Script', cursive;
-       font-size:35px;
-       background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;}
+.carte{
+  h3{font-size:40px;}
 }

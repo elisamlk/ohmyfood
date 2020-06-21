@@ -107,28 +107,23 @@ p {
   font-size: 35px;
 }
 
-.second a, .second h3 {
+.second a {
   font-family: 'Croissant One', cursive;
-  font-size: 35px;
-  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 25px;
 }
 
-.third a, .third h3 {
+.third a {
   font-family: 'Dancing Script', cursive;
-  font-size: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 35px;
 }
 
-.fourth a, .fourth h3 {
+.fourth a {
   font-family: 'Kaushan Script', cursive;
   font-size: 35px;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+
+.carte h3 {
+  font-size: 40px;
 }
 
 body {
@@ -252,5 +247,26 @@ footer a {
   font-size: 25px;
   color: #ffb74d;
   font-family: 'Montserrat', sans-serif;
+}
+
+.second a h2, .second h3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.third a h2, .third h3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fourth a h2, .fourth h3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=main.css.map */

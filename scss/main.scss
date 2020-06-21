@@ -68,3 +68,15 @@ footer{
      color:$color-secondary;
      font-family: 'Montserrat', sans-serif;}
    }
+
+   .second{
+      a h2,h3{@include first-gradient;}
+        }
+
+   .third{
+      a h2,h3{@include second-gradient;}
+   }
+
+   .fourth{
+      a h2,h3{@include third-gradient;}
+   }
