@@ -28,7 +28,7 @@ main{
        justify-content: space-evenly;}
        .menu{
            box-shadow:0px 0px 5px 6px #f1f1f1;
-           padding:20px;
+           padding:35px;
            margin-top:50px;
            height:420px;
            flex-basis:25%;}
@@ -70,13 +70,36 @@ footer{
    }
 
    .second{
-      a h2,h3{@include first-gradient;}
-        }
+      a,h2,h3{@include first-gradient;
+           font-family: 'Croissant One', cursive;
+           font-size:35px;}
+           h3{font-size:30px;}
+      }
+    
+    .third{
+      a,h2,h3{@include second-gradient;
+           font-family: 'Dancing Script', cursive;  
+           font-size:50px;}
+         }
+    
+    .fourth{
+      a,h2,h3{@include third-gradient;
+           font-family: 'Kaushan Script', cursive;
+           font-size:45px;}
+         }
+      
+         .shape3{
+            width:300px;
+            height:8px;
+            border-bottom-left-radius:100%;
+            background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+            }
+            .shape4{
+              width:300px;
+              height:8px;
+              border-bottom-right-radius:100%;
+              background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
+          
+          }
 
-   .third{
-      a h2,h3{@include second-gradient;}
-   }
-
-   .fourth{
-      a h2,h3{@include third-gradient;}
-   }
+   

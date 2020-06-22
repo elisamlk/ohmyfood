@@ -26,6 +26,22 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  p {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  span {
+    margin: 20px;
+  }
+}
+
 .page1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +59,7 @@
   font-size: 40px;
 }
 
-.page1 h3 {
+.page1 h3, .page1 h4 {
   text-align: center;
 }
 
@@ -52,10 +68,10 @@ header a {
 }
 
 .carte {
-  padding: 20px 15px 20px 15px;
+  margin-top: 30px;
   -webkit-box-shadow: 0px 0px 5px 6px #f1f1f1;
           box-shadow: 0px 0px 5px 6px #f1f1f1;
-  width: 80%;
+  width: 75%;
 }
 
 .carte h3, .carte h4 {
@@ -83,6 +99,7 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0 45px 0 45px;
 }
 
 .title {
@@ -105,25 +122,6 @@ p {
   font-family: 'Devonshire', cursive;
   color: #4e342e;
   font-size: 35px;
-}
-
-.second a {
-  font-family: 'Croissant One', cursive;
-  font-size: 25px;
-}
-
-.third a {
-  font-family: 'Dancing Script', cursive;
-  font-size: 35px;
-}
-
-.fourth a {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 35px;
-}
-
-.carte h3 {
-  font-size: 40px;
 }
 
 body {
@@ -178,7 +176,7 @@ main .row {
 main .menu {
   -webkit-box-shadow: 0px 0px 5px 6px #f1f1f1;
           box-shadow: 0px 0px 5px 6px #f1f1f1;
-  padding: 20px;
+  padding: 35px;
   margin-top: 50px;
   height: 420px;
   -ms-flex-preferred-size: 25%;
@@ -249,24 +247,49 @@ footer a {
   font-family: 'Montserrat', sans-serif;
 }
 
-.second a h2, .second h3 {
+.second a, .second h2, .second h3 {
+  background-size: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Croissant One', cursive;
+  font-size: 35px;
 }
 
-.third a h2, .third h3 {
+.second h3 {
+  font-size: 30px;
+}
+
+.third a, .third h2, .third h3 {
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
 }
 
-.fourth a h2, .fourth h3 {
+.fourth a, .fourth h2, .fourth h3 {
   background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
+}
+
+.shape3 {
+  width: 300px;
+  height: 8px;
+  border-bottom-left-radius: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+}
+
+.shape4 {
+  width: 300px;
+  height: 8px;
+  border-bottom-right-radius: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
 }
 /*# sourceMappingURL=main.css.map */
