@@ -1,47 +1,3 @@
-@media screen and (max-width: 576px) {
-  .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .menus {
-    padding: 35px;
-  }
-  footer a {
-    text-align: center;
-  }
-  p {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-  span {
-    margin: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  p {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-  span {
-    margin: 20px;
-  }
-}
-
 .page1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,7 +155,7 @@ header {
 
 header h1 {
   color: #ffb74d;
-  font-size: 55px;
+  font-size: 65px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -292,7 +248,7 @@ footer a {
   display: -ms-flexbox;
   display: flex;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   color: #ffb74d;
   font-family: 'Montserrat', sans-serif;
 }
@@ -370,15 +326,60 @@ footer a:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
 }
 
-.menu {
-  -webkit-transition: all 400ms;
-  transition: all 400ms;
+.menu a {
+  -webkit-transition: 400ms;
+  transition: 400ms;
   opacity: 1;
 }
 
-.menu:hover {
+.menu a:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   opacity: 0.5;
+}
+
+@media screen and (max-width: 576px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menus {
+    padding: 35px;
+  }
+  footer a {
+    text-align: center;
+    font-size: 25px;
+  }
+  p {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  header {
+    height: 100px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
