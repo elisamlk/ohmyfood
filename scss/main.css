@@ -125,24 +125,48 @@ p {
 }
 
 @-webkit-keyframes wiggle {
-  0% {
+  from {
     -webkit-transform: translateX(5%) translateY(5%);
             transform: translateX(5%) translateY(5%);
   }
-  100% {
+  to {
     -webkit-transform: translateX(-5%) translateY(-5%);
             transform: translateX(-5%) translateY(-5%);
   }
 }
 
 @keyframes wiggle {
-  0% {
+  from {
     -webkit-transform: translateX(5%) translateY(5%);
             transform: translateX(5%) translateY(5%);
   }
-  100% {
+  to {
     -webkit-transform: translateX(-5%) translateY(-5%);
             transform: translateX(-5%) translateY(-5%);
+  }
+}
+
+@-webkit-keyframes dot {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dot {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -247,6 +271,25 @@ main button {
   font-family: 'Montserrat', sans-serif;
 }
 
+main span {
+  -webkit-animation-name: dot;
+          animation-name: dot;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+main span:nth-child(2) {
+  -webkit-animation-delay: 330ms;
+          animation-delay: 330ms;
+}
+
+main span:nth-child(3) {
+  -webkit-animation-delay: 660ms;
+          animation-delay: 660ms;
+}
+
 footer {
   background-color: #009688;
   height: 100px;
@@ -344,5 +387,17 @@ footer a:hover {
   width: 300px;
   height: 100px;
   background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+}
+
+.menu {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  opacity: 1;
+}
+
+.menu:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 0.5;
 }
 /*# sourceMappingURL=main.css.map */
