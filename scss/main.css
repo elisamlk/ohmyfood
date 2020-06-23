@@ -124,6 +124,28 @@ p {
   font-size: 35px;
 }
 
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+  100% {
+    -webkit-transform: translateX(-5%) translateY(-5%);
+            transform: translateX(-5%) translateY(-5%);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+  100% {
+    -webkit-transform: translateX(-5%) translateY(-5%);
+            transform: translateX(-5%) translateY(-5%);
+  }
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -131,6 +153,10 @@ body {
 
 #page {
   min-height: 100vh;
+}
+
+.carte {
+  padding: 35px;
 }
 
 header {
@@ -247,6 +273,17 @@ footer a {
   font-family: 'Montserrat', sans-serif;
 }
 
+footer a:hover {
+  -webkit-animation-name: wiggle;
+          animation-name: wiggle;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
 .second a, .second h2, .second h3 {
   background-size: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
@@ -291,5 +328,21 @@ footer a {
   height: 8px;
   border-bottom-right-radius: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+}
+
+.shape {
+  -webkit-clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+          clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+  width: 300px;
+  height: 100px;
+  background-color: #4e342e;
+}
+
+.shape5 {
+  -webkit-clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+          clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+  width: 300px;
+  height: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
 }
 /*# sourceMappingURL=main.css.map */

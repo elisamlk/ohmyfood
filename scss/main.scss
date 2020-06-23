@@ -1,12 +1,17 @@
 @import"config";
 @import"responsive";
 @import"menus-layout";
+@import"animation";
 
 body{margin:0;
     font-family:sans-serif;}
 
 #page{
    min-height:100vh;
+}
+
+.carte{padding:35px;
+      
 }
 
 header{
@@ -66,8 +71,15 @@ footer{
      text-decoration: none;
      font-size:25px;
      color:$color-secondary;
-     font-family: 'Montserrat', sans-serif;}
+     font-family: 'Montserrat', sans-serif;
+     &:hover {
+      animation-name: wiggle;
+      animation-duration: 0.4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
    }
+  }
 
    .second{
       a,h2,h3{@include first-gradient;
@@ -88,18 +100,34 @@ footer{
            font-size:45px;}
          }
       
-         .shape3{
-            width:300px;
-            height:8px;
-            border-bottom-left-radius:100%;
-            background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
-            }
-            .shape4{
-              width:300px;
-              height:8px;
-              border-bottom-right-radius:100%;
-              background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
-          
+  .shape3{
+      width:300px;
+      height:8px;
+      border-bottom-left-radius:100%;
+      background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
           }
+  .shape4{
+      width:300px;
+      height:8px;
+      border-bottom-right-radius:100%;
+      background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
+          }
+
+  
+    .shape{
+      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+      width:300px;
+      height: 100px;
+      background-color:$color-fourth;
+    }
+
+    .shape5{
+      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+      width:300px;
+      height: 100px;
+      background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+    }
+  
+    
 
    
