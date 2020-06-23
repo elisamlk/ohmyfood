@@ -1,9 +1,10 @@
 @keyframes wiggle {
     from {
-      transform: translateX(5%) translateY(5%);
+      transform: rotate(5deg);
     }
     to {
-      transform: translateX(-5%) translateY(-5%);
+      transform: rotate(-5deg);
+      
     }
   }
 
