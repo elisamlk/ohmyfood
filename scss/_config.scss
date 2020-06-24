@@ -12,6 +12,7 @@ $color-fourth:rgba(78,52,46 ,1);
     }
 
 @mixin second-gradient{
+       background-size:100%;
        background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
        background-clip: text;
        -webkit-background-clip: text;
@@ -19,6 +20,7 @@ $color-fourth:rgba(78,52,46 ,1);
     }
 
 @mixin third-gradient{
+       background-size: 100%;
        background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
        background-clip:text;
        -webkit-background-clip: text;

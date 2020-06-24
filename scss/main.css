@@ -15,10 +15,6 @@
   font-size: 40px;
 }
 
-.page1 h3, .page1 h4 {
-  text-align: center;
-}
-
 header a {
   text-decoration: none;
 }
@@ -41,6 +37,7 @@ header a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 i {
@@ -227,6 +224,25 @@ main button {
   font-family: 'Montserrat', sans-serif;
 }
 
+main button span {
+  -webkit-animation-name: dot;
+          animation-name: dot;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+main button span:nth-child(2) {
+  -webkit-animation-delay: 330ms;
+          animation-delay: 330ms;
+}
+
+main button span:nth-child(3) {
+  -webkit-animation-delay: 660ms;
+          animation-delay: 660ms;
+}
+
 footer {
   background-color: #009688;
   height: 100px;
@@ -279,6 +295,7 @@ footer a:hover {
 }
 
 .third a, .third h2, .third h3 {
+  background-size: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
   background-clip: text;
   -webkit-background-clip: text;
@@ -288,6 +305,7 @@ footer a:hover {
 }
 
 .fourth a, .fourth h2, .fourth h3 {
+  background-size: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
   background-clip: text;
   -webkit-background-clip: text;
@@ -297,14 +315,14 @@ footer a:hover {
 }
 
 .shape3 {
-  width: 300px;
+  width: 350px;
   height: 8px;
   border-bottom-left-radius: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
 }
 
 .shape4 {
-  width: 300px;
+  width: 350px;
   height: 8px;
   border-bottom-right-radius: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
@@ -338,6 +356,10 @@ footer a:hover {
   opacity: 0.5;
 }
 
+h4 {
+  padding: 10px;
+}
+
 @media screen and (max-width: 576px) {
   .row {
     -webkit-box-orient: vertical;
@@ -361,6 +383,7 @@ footer a:hover {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+    padding: 0;
   }
   header {
     height: 100px;
