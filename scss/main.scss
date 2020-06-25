@@ -1,96 +1,18 @@
 @import "config";
-@import"responsive";
+@import "home/header-footer";
+@import"home/menu-grid";
 @import"menus-layout";
 @import"animation";
 
-body{margin:0;
-    font-family:sans-serif;}
 
-#page{
-   min-height:100vh;
-}
 
-.carte{padding:35px;}
 
-header{
-   background-color:$color-primary;
-   height:150px;
-   display: flex;
-   justify-content: center;
-   align-items:center;
-   h1{color:$color-secondary;
-      font-size:65px;
-      font-family: 'Montserrat', sans-serif;}
-}
 
-main{
-   display: flex;
-   flex-direction: column;
-   margin-bottom:150px;
-   .row{display: flex;
-       justify-content: space-evenly;}
-       .menu{
-           box-shadow:0px 0px 5px 6px #f1f1f1;
-           padding:35px;
-           margin-top:50px;
-           height:420px;
-           flex-basis:25%;}
-           a{display:flex;
-             flex-direction: column;
-             height:100%;
-             justify-content: center;
-             align-items:center;
-             text-decoration:none;
-             font-size:20px;
-             }
-             h2{text-align: center;}
-             button{align-self: center;
-                    width:300px;
-                    height:90px;
-                    border:none;
-                    background-color:rgba(0,150,136,1) ;
-                    font-size:30px;
-                    color:$color-secondary;
-                    border-radius:20px;
-                    margin-top:50px;
-                    font-family: 'Montserrat', sans-serif;
-                    & span {
-                      animation-name:dot;
-                      animation-duration:1s;
-                      animation-iteration-count: infinite;
-                    }
-                    & span:nth-child(2) {
-                      animation-delay: 330ms;
-                    }
-                    & span:nth-child(3) {
-                      animation-delay: 660ms;
-                    }}
-                    
-                    
-}
 
-footer{
-   background-color:$color-primary;
-   height:100px;
-   display:flex;
-   align-items:center;
-   justify-content: space-around;
-   position:fixed;
-   bottom:0;
-   width:100%;
-   a{display: flex;
-     text-decoration: none;
-     font-size:30px;
-     color:$color-secondary;
-     font-family: 'Montserrat', sans-serif;
-     &:hover {
-      animation-name: wiggle;
-      animation-duration: 0.3s;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-    }
-   }
-  }
+
+
+
+
 
    .second{
       a,h2,h3{@include first-gradient;
@@ -139,36 +61,11 @@ footer{
       background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
     }
 
-    .menu a{
-    transition:  400ms;
-    opacity: 1;
-    &:hover {
-      transform: scale(1.1);
-      opacity: 0.5;
-    }
-    }
+   
 
     h4{padding:10px;}
   
-    @media screen and (max-width:576px){
-      .row{flex-direction: column;}
-      .menus{padding:35px;}    
-      footer a {text-align: center;
-                font-size:25px;}
-      p{flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding:0;}
-      header{height:100px;}
-      header h1{font-size:50px;}
-      }
-      
-
-      @media screen and (max-width:768px){
-        p{flex-direction: column;
-          align-items: center;
-          text-align: center;}
-        }
+    @import"responsive";
     
 
    
