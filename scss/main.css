@@ -1,3 +1,49 @@
+@-webkit-keyframes wiggle {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes wiggle {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@-webkit-keyframes dot {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dot {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -167,6 +213,10 @@ button span:nth-child(3) {
           animation-delay: 660ms;
 }
 
+header a {
+  text-decoration: none;
+}
+
 .page1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,10 +232,6 @@ button span:nth-child(3) {
 
 .page1 h2 {
   font-size: 40px;
-}
-
-header a {
-  text-decoration: none;
 }
 
 .carte {
@@ -244,52 +290,6 @@ p {
   font-family: 'Devonshire', cursive;
   color: #4e342e;
   font-size: 35px;
-}
-
-@-webkit-keyframes wiggle {
-  from {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  to {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-}
-
-@keyframes wiggle {
-  from {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  to {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-}
-
-@-webkit-keyframes dot {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes dot {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .second a, .second h2, .second h3 {
@@ -383,6 +383,16 @@ h4 {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+    padding: 0;
+  }
+  .title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  h4 {
+    margin: 0;
     padding: 0;
   }
   header {

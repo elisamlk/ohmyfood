@@ -1,71 +1,10 @@
-@import "config";
-@import "home/header-footer";
+@import"variables/config";
+@import"variables/mixins";
+@import"variables/animation";
+@import"home/header-footer";
 @import"home/menu-grid";
 @import"menus-layout";
-@import"animation";
+@import"responsive";
 
-
-
-
-
-
-
-
-
-
-
-   .second{
-      a,h2,h3{@include first-gradient;
-           font-family: 'Croissant One', cursive;
-           font-size:35px;}
-           h3{font-size:30px;}
-      }
-    
-    .third{
-      a,h2,h3{@include second-gradient;
-           font-family: 'Dancing Script', cursive;  
-           font-size:50px;}
-         }
-    
-    .fourth{
-      a,h2,h3{@include third-gradient;
-           font-family: 'Kaushan Script', cursive;
-           font-size:45px;}
-         }
-      
-  .shape3{
-      width:350px;
-      height:8px;
-      border-bottom-left-radius:100%;
-      background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
-          }
-  .shape4{
-      width:350px;
-      height:8px;
-      border-bottom-right-radius:100%;
-      background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
-          }
-
-  
-    .shape{
-      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-      width:300px;
-      height: 100px;
-      background-color:$color-fourth;
-    }
-
-    .shape5{
-      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-      width:300px;
-      height: 100px;
-      background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
-    }
-
-   
-
-    h4{padding:10px;}
-  
-    @import"responsive";
-    
 
    

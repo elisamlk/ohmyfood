@@ -1,0 +1,23 @@
+@mixin first-gradient{
+    background-size: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+@mixin second-gradient{
+    background-size:100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+@mixin third-gradient{
+    background-size: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
