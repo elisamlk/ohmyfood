@@ -159,6 +159,54 @@ main a {
   font-size: 20px;
 }
 
+main h2 {
+  text-align: center;
+}
+
+.first {
+  background-color: #ffebee;
+}
+
+.first a, .first h3 {
+  font-family: 'Devonshire', cursive;
+  color: #4e342e;
+  font-size: 35px;
+}
+
+.second a, .second h2, .second h3 {
+  background-size: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Croissant One', cursive;
+  font-size: 35px;
+}
+
+.second h3 {
+  font-size: 30px;
+}
+
+.third a, .third h2, .third h3 {
+  background-size: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+.fourth a, .fourth h2, .fourth h3 {
+  background-size: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
+}
+
 .menu a {
   -webkit-transition: 400ms;
   transition: 400ms;
@@ -169,14 +217,6 @@ main a {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   opacity: 0.5;
-}
-
-.carte {
-  padding: 35px;
-}
-
-h2 {
-  text-align: center;
 }
 
 button {
@@ -235,6 +275,7 @@ header a {
 }
 
 .carte {
+  padding: 35px;
   margin-top: 30px;
   -webkit-box-shadow: 0px 0px 5px 6px #f1f1f1;
           box-shadow: 0px 0px 5px 6px #f1f1f1;
@@ -282,50 +323,6 @@ p {
           align-items: center;
 }
 
-.first {
-  background-color: #ffebee;
-}
-
-.first a, .first h3 {
-  font-family: 'Devonshire', cursive;
-  color: #4e342e;
-  font-size: 35px;
-}
-
-.second a, .second h2, .second h3 {
-  background-size: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Croissant One', cursive;
-  font-size: 35px;
-}
-
-.second h3 {
-  font-size: 30px;
-}
-
-.third a, .third h2, .third h3 {
-  background-size: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Dancing Script', cursive;
-  font-size: 50px;
-}
-
-.fourth a, .fourth h2, .fourth h3 {
-  background-size: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 45px;
-}
-
 .shape3 {
   width: 350px;
   height: 8px;
@@ -358,6 +355,24 @@ p {
 
 h4 {
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  bottom: 38px;
+  right: 7px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .4s;
+  transition: background-size .4s;
+}
+
+h4:hover {
+  background-size: 100% 2px;
 }
 
 @media screen and (max-width: 576px) {
