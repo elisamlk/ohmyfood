@@ -353,8 +353,8 @@ p {
   background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
 }
 
-h4 {
-  padding: 10px;
+.first h4 {
+  padding: 0 25px 5px 25px;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
@@ -362,16 +362,82 @@ h4 {
   text-align: center;
   bottom: 38px;
   right: 7px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
-  background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4e342e));
+  background-image: linear-gradient(#4e342e);
 }
 
-h4:hover {
+.first h4:hover {
+  background-size: 100% 2px;
+}
+
+.second h4 {
+  padding: 0 25px 5px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  bottom: 38px;
+  right: 7px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .4s;
+  transition: background-size .4s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(orange));
+  background-image: linear-gradient(orange);
+}
+
+.second h4:hover {
+  background-size: 100% 2px;
+}
+
+.third h4 {
+  padding: 0 25px 5px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  bottom: 38px;
+  right: 7px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .4s;
+  transition: background-size .4s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blue));
+  background-image: linear-gradient(blue);
+}
+
+.third h4:hover {
+  background-size: 100% 2px;
+}
+
+.fourth h4 {
+  padding: 0 25px 5px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  bottom: 38px;
+  right: 7px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .4s;
+  transition: background-size .4s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(green));
+  background-image: linear-gradient(green);
+}
+
+.fourth h4:hover {
   background-size: 100% 2px;
 }
 

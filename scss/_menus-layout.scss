@@ -37,13 +37,13 @@ p{display: flex;
   border-bottom-left-radius:100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
       }
+
 .shape4{
   width:350px;
   height:8px;
   border-bottom-right-radius:100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
       }
-
 
 .shape{
   clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
@@ -61,23 +61,29 @@ p{display: flex;
 
 
 
-h4{padding:10px;
+.first h4{
+  padding:0 25px 5px 25px;
+  @include underline;
+  background-image:linear-gradient($color-fourth);
+}
 
-    // Pour que le sous ligné ne fasse pas toute la largeur de la page !
-    margin-left: auto;// Pour le centrer
-    margin-right: auto;// Pour le centrer
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+.second h4{
+  padding:0 25px 5px 25px;
+  @include underline;
+  background-image:linear-gradient(orange);
+}
+
+.third h4{
+  padding:0 25px 5px 25px;
+  @include underline;
+  background-image:linear-gradient(blue);
+}
+
+.fourth h4{
+  padding:0 25px 5px 25px;
+  @include underline;
+  background-image:linear-gradient(green);
+
+}
+
     
-    bottom: 38px;
-    right: 7px;
-    background-image: linear-gradient(currentColor, currentColor);// Pour effet sousligné
-    background-position: 0% 100%;// Pour effet sousligné
-    background-repeat: no-repeat;// Pour effet sousligné
-    background-size: 0% 2px;// Pour effet sousligné
-    transition: background-size .4s;// Pour effet sousligné
-    &:hover {// Pour effet sousligné
-      background-size: 100% 2px;}// Pour effet sousligné
-    }
-
