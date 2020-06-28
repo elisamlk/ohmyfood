@@ -409,6 +409,18 @@ p {
   font-size: 85px;
 }
 
+.second h3 {
+  font-size: 40px;
+}
+
+.second h4 {
+  font-size: 20px;
+}
+
+.second h4, .second p {
+  font-family: "Montserrat", sans-serif;
+}
+
 .dish1 h4 {
   padding: 0 25px 5px 25px;
   margin-left: auto;
