@@ -296,6 +296,10 @@ header a {
   text-align: center;
 }
 
+.carte span {
+  font-weight: bold;
+}
+
 i {
   font-size: 60px;
   margin-bottom: 15px;
@@ -328,7 +332,6 @@ p {
           clip-path: polygon(22% 34%, 100% 46%, 22% 57%, 0 45%);
   width: 300px;
   height: 50px;
-  background-color: blue;
 }
 
 .shape1 {
@@ -336,7 +339,6 @@ p {
           clip-path: polygon(75% 34%, 100% 46%, 75% 54%, 0 45%);
   width: 300px;
   height: 50px;
-  background-color: blue;
 }
 
 .shape3 {
@@ -395,7 +397,7 @@ p {
   background-color: #4e342e;
 }
 
-.second h4 {
+.dish1 h4 {
   padding: 0 25px 5px 25px;
   margin-left: auto;
   margin-right: auto;
@@ -408,12 +410,78 @@ p {
   background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(orange));
-  background-image: linear-gradient(orange);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c67412));
+  background-image: linear-gradient(#c67412);
 }
 
-.second h4:hover {
+.dish1 h4:hover {
   background-size: 100% 5px;
+}
+
+.dish1 .shape1, .dish1 .shape2 {
+  background-color: #c67412;
+}
+
+.dish1 h4, .dish1 p {
+  color: #c67412;
+}
+
+.dish2 h4 {
+  padding: 0 25px 5px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-align: center;
+  bottom: 38px;
+  right: 7px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  -webkit-transition: background-size .4s;
+  transition: background-size .4s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a56799));
+  background-image: linear-gradient(#a56799);
+}
+
+.dish2 h4:hover {
+  background-size: 100% 5px;
+}
+
+.dish2 .shape1, .dish2 .shape2 {
+  background-color: #a56799;
+}
+
+.dish2 h4, .dish2 p {
+  color: #a56799;
+}
+
+.dish3 h4 {
+  padding: 0 25px 5px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-align: center;
+  bottom: 38px;
+  right: 7px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  -webkit-transition: background-size .4s;
+  transition: background-size .4s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6e4ccc));
+  background-image: linear-gradient(#6e4ccc);
+}
+
+.dish3 h4:hover {
+  background-size: 100% 5px;
+}
+
+.dish3 .shape1, .dish3 .shape2 {
+  background-color: #6e4ccc;
+}
+
+.dish3 h4, .dish3 p {
+  color: #6e4ccc;
 }
 
 .third h4 {
