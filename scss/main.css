@@ -360,8 +360,8 @@ p {
   background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4e342e));
-  background-image: linear-gradient(#4e342e);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4e342e), to(#4e342e));
+  background-image: linear-gradient(#4e342e, #4e342e);
 }
 
 .first h4:hover {
@@ -423,8 +423,8 @@ p {
   background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c67412));
-  background-image: linear-gradient(#c67412);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c67412), to(#c67412));
+  background-image: linear-gradient(#c67412, #c67412);
 }
 
 .dish1 h4:hover {
@@ -452,8 +452,8 @@ p {
   background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a56799));
-  background-image: linear-gradient(#a56799);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a56799), to(#a56799));
+  background-image: linear-gradient(#a56799, #a56799);
 }
 
 .dish2 h4:hover {
@@ -481,8 +481,8 @@ p {
   background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#6e4ccc));
-  background-image: linear-gradient(#6e4ccc);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6e4ccc), to(#6e4ccc));
+  background-image: linear-gradient(#6e4ccc, #6e4ccc);
 }
 
 .dish3 h4:hover {
@@ -520,8 +520,8 @@ p {
   background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(blue));
-  background-image: linear-gradient(blue);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0d0df3), to(#0d0df3));
+  background-image: linear-gradient(#0d0df3, #0d0df3);
 }
 
 .third h4:hover {
@@ -560,8 +560,8 @@ p {
   background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(green));
-  background-image: linear-gradient(green);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(green), to(green));
+  background-image: linear-gradient(green, green);
 }
 
 .fourth h4:hover {

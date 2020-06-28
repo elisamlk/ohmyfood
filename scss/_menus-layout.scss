@@ -67,7 +67,7 @@ p{display: flex;
   color:$color-fourth;
   padding:0 25px 5px 25px;
   @include underline;
-  background-image:linear-gradient($color-fourth);}
+  background-image:linear-gradient($color-fourth,$color-fourth);}
   .top h3{font-size:55px;}
   p{font-family: 'Nanum Pen Script', cursive;
     font-size:25px;
@@ -93,7 +93,7 @@ p{display: flex;
       h4{
       padding:0 25px 5px 25px;
       @include underline;
-      background-image:linear-gradient($color-menu2-1)}
+      background-image:linear-gradient($color-menu2-1,$color-menu2-1)}
       .shape1, .shape2{background-color: $color-menu2-1;}
       h4, p{color:$color-menu2-1;}
       }
@@ -102,7 +102,7 @@ p{display: flex;
         h4{
         padding:0 25px 5px 25px;
         @include underline;
-        background-image:linear-gradient($color-menu2-2)}
+        background-image:linear-gradient($color-menu2-2,$color-menu2-2)}
         .shape1, .shape2{background-color: $color-menu2-2;}
         h4, p{color:$color-menu2-2;}
         }
@@ -111,7 +111,7 @@ p{display: flex;
         h4{
         padding:0 25px 5px 25px;
         @include underline;
-        background-image:linear-gradient($color-menu2-3)}
+        background-image:linear-gradient($color-menu2-3,$color-menu2-3)}
         .shape1, .shape2{background-color: $color-menu2-3}
         h4, p{color:$color-menu2-3;}
         }
@@ -126,7 +126,7 @@ p{display: flex;
   font-size:30px;
   padding:5px 25px 5px 25px;
   @include underline;
-  background-image:linear-gradient(blue);}
+  background-image:linear-gradient($color-menu3, $color-menu3);}
   p{font-family:'Charm', cursive;
     font-size:20px;}
     span{font-weight: bold;}
@@ -141,7 +141,7 @@ p{display: flex;
   font-size:30px;
   padding:0 25px 5px 25px;
   @include underline;
-  background-image:linear-gradient(green);}
+  background-image:linear-gradient($color-menu4,$color-menu4);}
   p{font-family:'Charm', cursive;
     font-size:20px;}
     span{font-weight:bold;}
