@@ -177,14 +177,12 @@ main h2 {
   background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: 'Croissant One', cursive;
   font-size: 35px;
 }
 
 .third a, .third h2 {
   background: -webkit-linear-gradient(top, #010641, #0329ff);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Dancing Script', cursive;
@@ -193,7 +191,6 @@ main h2 {
 
 .fourth a, .fourth h2 {
   background: -webkit-gradient(linear, left top, left bottom, from(#023102), to(#3eff3e));
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Kaushan Script', cursive;
@@ -293,9 +290,8 @@ i {
   font-size: 60px;
   margin-bottom: 15px;
   background: -webkit-linear-gradient(right, #f78f6a, #f04a5e);
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -403,7 +399,6 @@ p {
   background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: 'Croissant One', cursive;
 }
 
@@ -504,7 +499,6 @@ p {
 
 .third h3 {
   background: -webkit-linear-gradient(top, #010641, #0329ff);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Dancing Script', cursive;
@@ -545,7 +539,6 @@ p {
 
 .fourth h3 {
   background: -webkit-gradient(linear, left top, left bottom, from(#023102), to(#3eff3e));
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Kaushan Script', cursive;

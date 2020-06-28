@@ -2,19 +2,16 @@
   background: -webkit-linear-gradient(top,#FB8C00,#F48FB1,#3F51B5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
- }
+  }
 
 @mixin second-gradient{
     background: -webkit-linear-gradient(top,#010641,#0329ff);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
 
 @mixin third-gradient{
     background: -webkit-gradient(linear, left top, left bottom, from(rgb(2, 49, 2)), to(rgb(62, 255, 62)));
-    background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
