@@ -354,17 +354,19 @@ p {
 }
 
 .first h4 {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 35px;
+  color: #4e342e;
   padding: 0 25px 5px 25px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
   font-weight: bold;
   text-align: center;
   bottom: 38px;
   right: 7px;
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 2px;
+  background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#4e342e));
@@ -372,21 +374,30 @@ p {
 }
 
 .first h4:hover {
-  background-size: 100% 2px;
+  background-size: 100% 5px;
+}
+
+.first p {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 25px;
+  color: #4e342e;
+}
+
+.first span {
+  font-weight: bold;
 }
 
 .second h4 {
   padding: 0 25px 5px 25px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
   font-weight: bold;
   text-align: center;
   bottom: 38px;
   right: 7px;
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 2px;
+  background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(orange));
@@ -394,21 +405,20 @@ p {
 }
 
 .second h4:hover {
-  background-size: 100% 2px;
+  background-size: 100% 5px;
 }
 
 .third h4 {
   padding: 0 25px 5px 25px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
   font-weight: bold;
   text-align: center;
   bottom: 38px;
   right: 7px;
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 2px;
+  background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(blue));
@@ -416,21 +426,20 @@ p {
 }
 
 .third h4:hover {
-  background-size: 100% 2px;
+  background-size: 100% 5px;
 }
 
 .fourth h4 {
   padding: 0 25px 5px 25px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
   font-weight: bold;
   text-align: center;
   bottom: 38px;
   right: 7px;
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 2px;
+  background-size: 0% 5px;
   -webkit-transition: background-size .4s;
   transition: background-size .4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(green));
@@ -438,7 +447,7 @@ p {
 }
 
 .fourth h4:hover {
-  background-size: 100% 2px;
+  background-size: 100% 5px;
 }
 
 @media screen and (max-width: 576px) {

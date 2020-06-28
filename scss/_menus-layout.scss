@@ -59,13 +59,19 @@ p{display: flex;
   background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
 }
 
-
-
-.first h4{
+.first{
+  h4{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size:35px;
+  color:$color-fourth;
   padding:0 25px 5px 25px;
   @include underline;
-  background-image:linear-gradient($color-fourth);
-}
+  background-image:linear-gradient($color-fourth);}
+  p{font-family: 'Nanum Pen Script', cursive;
+    font-size:25px;
+    color:$color-fourth;}
+    span{font-weight: bold;}
+    }
 
 .second h4{
   padding:0 25px 5px 25px;
