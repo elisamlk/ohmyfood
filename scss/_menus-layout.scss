@@ -31,6 +31,20 @@ p{display: flex;
   align-items: center;
 }
 
+.shape2{
+  clip-path: polygon(22% 34%, 100% 46%, 22% 57%, 0 45%);
+  width:300px;
+  height:50px;
+  background-color: blue;
+}
+
+.shape1{
+  clip-path: polygon(75% 34%, 100% 46%, 75% 54%, 0 45%);
+  width:300px;
+  height:50px;
+  background-color: blue;
+}
+
 .shape3{
   width:350px;
   height:8px;
@@ -45,19 +59,6 @@ p{display: flex;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
       }
 
-.shape{
-  clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-  width:300px;
-  height: 100px;
-  background-color:$color-fourth;
-}
-
-.shape5{
-  clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-  width:300px;
-  height: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
-}
 
 .first{
   h4{
@@ -71,6 +72,12 @@ p{display: flex;
     font-size:25px;
     color:$color-fourth;}
     span{font-weight: bold;}
+    .shape{
+      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+      width:300px;
+      height: 100px;
+      background-color:$color-fourth;
+    }
     }
 
 .second h4{
@@ -101,6 +108,12 @@ p{display: flex;
   p{font-family:'Charm', cursive;
     font-size:20px;}
     span{font-weight:bold;}
+    .shape{
+      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+      width:300px;
+      height: 100px;
+      background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+    }
 }
 
     

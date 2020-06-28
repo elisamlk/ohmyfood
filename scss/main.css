@@ -323,6 +323,22 @@ p {
           align-items: center;
 }
 
+.shape2 {
+  -webkit-clip-path: polygon(22% 34%, 100% 46%, 22% 57%, 0 45%);
+          clip-path: polygon(22% 34%, 100% 46%, 22% 57%, 0 45%);
+  width: 300px;
+  height: 50px;
+  background-color: blue;
+}
+
+.shape1 {
+  -webkit-clip-path: polygon(75% 34%, 100% 46%, 75% 54%, 0 45%);
+          clip-path: polygon(75% 34%, 100% 46%, 75% 54%, 0 45%);
+  width: 300px;
+  height: 50px;
+  background-color: blue;
+}
+
 .shape3 {
   width: 350px;
   height: 8px;
@@ -335,22 +351,6 @@ p {
   height: 8px;
   border-bottom-right-radius: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
-}
-
-.shape {
-  -webkit-clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-          clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-  width: 300px;
-  height: 100px;
-  background-color: #4e342e;
-}
-
-.shape5 {
-  -webkit-clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-          clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-  width: 300px;
-  height: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
 }
 
 .first h4 {
@@ -385,6 +385,14 @@ p {
 
 .first span {
   font-weight: bold;
+}
+
+.first .shape {
+  -webkit-clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+          clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+  width: 300px;
+  height: 100px;
+  background-color: #4e342e;
 }
 
 .second h4 {
@@ -470,6 +478,14 @@ p {
 
 .fourth span {
   font-weight: bold;
+}
+
+.fourth .shape {
+  -webkit-clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+          clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
+  width: 300px;
+  height: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
 }
 
 @media screen and (max-width: 576px) {
