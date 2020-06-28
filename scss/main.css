@@ -409,6 +409,8 @@ p {
 }
 
 .third h4 {
+  font-family: 'Charm', cursive;
+  font-size: 30px;
   padding: 0 25px 5px 25px;
   margin-left: auto;
   margin-right: auto;
@@ -427,6 +429,11 @@ p {
 
 .third h4:hover {
   background-size: 100% 5px;
+}
+
+.third p {
+  font-family: 'Charm', cursive;
+  font-size: 20px;
 }
 
 .fourth h4 {

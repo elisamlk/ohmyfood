@@ -79,10 +79,15 @@ p{display: flex;
   background-image:linear-gradient(orange);
 }
 
-.third h4{
+.third{ 
+  h4{
+  font-family:'Charm', cursive;
+  font-size:30px;
   padding:0 25px 5px 25px;
   @include underline;
-  background-image:linear-gradient(blue);
+  background-image:linear-gradient(blue);}
+  p{font-family:'Charm', cursive;
+    font-size:20px;}
 }
 
 .fourth h4{
