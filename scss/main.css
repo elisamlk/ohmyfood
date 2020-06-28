@@ -173,23 +173,17 @@ main h2 {
   font-size: 35px;
 }
 
-.second a, .second h2, .second h3 {
-  background-size: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
-  background-clip: text;
-  -webkit-background-clip: text;
+.second a, .second h2 {
+  background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   font-family: 'Croissant One', cursive;
   font-size: 35px;
 }
 
-.second h3 {
-  font-size: 30px;
-}
-
-.third a, .third h2, .third h3 {
-  background-size: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+.third a, .third h2 {
+  background: -webkit-linear-gradient(top, #010641, #0329ff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -197,9 +191,8 @@ main h2 {
   font-size: 50px;
 }
 
-.fourth a, .fourth h2, .fourth h3 {
-  background-size: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+.fourth a, .fourth h2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#023102), to(#3eff3e));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -268,10 +261,6 @@ header a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.page1 h2 {
-  font-size: 40px;
 }
 
 .carte {
@@ -411,6 +400,11 @@ p {
 
 .second h3 {
   font-size: 40px;
+  background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: 'Croissant One', cursive;
 }
 
 .second h4 {
@@ -508,6 +502,15 @@ p {
   color: #6e4ccc;
 }
 
+.third h3 {
+  background: -webkit-linear-gradient(top, #010641, #0329ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+}
+
 .third h4 {
   font-family: 'Charm', cursive;
   font-size: 30px;
@@ -538,6 +541,15 @@ p {
 
 .third span {
   font-weight: bold;
+}
+
+.fourth h3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#023102), to(#3eff3e));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
 }
 
 .fourth h4 {

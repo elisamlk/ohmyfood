@@ -22,29 +22,28 @@ main{
 
 .first{
       background-color:$color-third;
-      a,h3{font-family: 'Devonshire', cursive;
+      a,h3 {font-family: 'Devonshire', cursive;
            color:$color-fourth;
            font-size:35px;}
           }
             
     
 .second{
-        a,h2,h3{@include first-gradient;
+        a,h2{@include first-gradient;
                 font-family: 'Croissant One', cursive;
                 font-size:35px;}
-                h3{font-size:30px;}
-       }
+        }
     
 .third{
-      a,h2,h3{@include second-gradient;
+      a,h2{@include second-gradient;
              font-family: 'Dancing Script', cursive;  
              font-size:50px;}
-         }
+        }
     
 .fourth{
-       a,h2,h3{@include third-gradient;
-               font-family: 'Kaushan Script', cursive;
-               font-size:45px;}
+       a,h2{@include third-gradient;
+            font-family: 'Kaushan Script', cursive;
+            font-size:45px;}
         }
 
 .menu a{

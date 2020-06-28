@@ -4,7 +4,6 @@ header a{text-decoration: none;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    h2{font-size:40px;}
   }
 
 .carte{
@@ -83,7 +82,9 @@ p{display: flex;
     }
 
   .second{
-    h3{font-size:40px;}
+    h3{font-size:40px;
+       @include first-gradient;
+       font-family: 'Croissant One', cursive;}
     h4{font-size: 20px;}
     h4, p{font-family: "Montserrat", sans-serif;};
   }
@@ -116,7 +117,10 @@ p{display: flex;
         }
   
 
-.third{ 
+.third{
+  h3{@include second-gradient;
+    font-family: 'Dancing Script', cursive;
+    font-size:45px;}
   h4{
   font-family:'Charm', cursive;
   font-size:30px;
@@ -129,6 +133,9 @@ p{display: flex;
 }
 
 .fourth{
+  h3{@include third-gradient;
+    font-family: 'Kaushan Script', cursive;
+    font-size:45px;}
   h4{
   font-family:'Charm', cursive;
   font-size:30px;

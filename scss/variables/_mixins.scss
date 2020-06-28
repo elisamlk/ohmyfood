@@ -1,22 +1,19 @@
 @mixin first-gradient{
-    background-size: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(orange), to(blue));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(top,#FB8C00,#F48FB1,#3F51B5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
  }
 
 @mixin second-gradient{
-    background-size:100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
+    background: -webkit-linear-gradient(top,#010641,#0329ff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
 
 @mixin third-gradient{
-    background-size: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(2, 49, 2)), to(rgb(62, 255, 62)));
     background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
