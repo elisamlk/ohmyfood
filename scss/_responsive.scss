@@ -8,16 +8,26 @@
           align-items: center;
           text-align: center;
           padding:0;}
-        .title{flex-direction: column;}
-        h4{margin:0;
-           padding:0;}
         header{height:100px;}
         header h1{font-size:50px;}
         .text h5{text-align:center;
                  font-size:25px;}
         .text{margin:20px 20px 150px 20px;}
-        
-        }
+        .second h3{font-size:25px;}
+        .second p{font-size:15px;}
+        .second h4{font-size:15px;}
+        .third h3{font-size:35px;}
+        .third h4{font-size:20px;}
+        .third p{font-size:15px;}
+        .fourth h3{font-size:35px;}
+        .fourth h4{font-size:20px;}
+        .fourth p{font-size:15px;}
+        .first p{font-size:20px;}
+        .top h3{font-size:35px;
+                  margin:0;}
+        .top i{font-size:60px;}
+        .first h4{font-size:25px;}
+      }
         
   
         @media screen and (max-width:768px){

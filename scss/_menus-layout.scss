@@ -59,6 +59,9 @@ p{display: flex;
   border-bottom-right-radius:100%;
   background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
       }
+      
+.top h3{font-size:55px;}
+.top i{font-size:80px;}
 
 .first{
   h4{
@@ -68,7 +71,6 @@ p{display: flex;
   padding:0 25px 5px 25px;
   @include underline;
   background-image:linear-gradient($color-fourth,$color-fourth);}
-  .top h3{font-size:55px;}
   p{font-family: 'Nanum Pen Script', cursive;
     font-size:25px;
     color:$color-fourth;}
@@ -78,7 +80,6 @@ p{display: flex;
       width:300px;
       height: 100px;
       background-color:$color-fourth;}
-      .top i{font-size:85px;}
     }
 
   .second{
