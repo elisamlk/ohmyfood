@@ -174,8 +174,7 @@ main h2 {
 }
 
 .second a, .second h2 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#d900aa), to(#1272d4));
-  background-image: linear-gradient(90deg, #d900aa, #1272d4);
+  background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: 'Croissant One', cursive;
@@ -413,8 +412,7 @@ p {
 
 .second h3 {
   font-size: 40px;
-  
-  background-image: linear-gradient(90deg, #d900aa, #1272d4);
+  background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: 'Croissant One', cursive;
