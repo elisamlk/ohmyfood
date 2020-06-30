@@ -1,5 +1,5 @@
 @mixin first-gradient{
-  background: -webkit-linear-gradient(top,#FB8C00,#F48FB1,#3F51B5);
+  background-image: linear-gradient(90deg, #d900aa, #1272d4);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   }
