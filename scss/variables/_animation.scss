@@ -1,21 +1,20 @@
 @keyframes wiggle {
-    from {
-      transform: rotate(5deg);
-    }
-    to {
-      transform: rotate(-5deg);
-      
-    }
+  from {
+    transform: rotate(5deg);
   }
+  to {
+    transform: rotate(-5deg);
+  }
+}
 
-  @keyframes dot {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@keyframes dot {
+  0% {
+    opacity: 1;
   }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

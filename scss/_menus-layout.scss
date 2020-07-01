@@ -1,164 +1,260 @@
-header a{text-decoration: none;}
+header a {
+  text-decoration: none;
+}
 
-.page1{
+.page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carte {
+  padding: 35px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px 6px #f1f1f1;
+  width: 75%;
+  h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  span {
+    font-weight: bold;
+  }
+  .top {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+}
 
-.carte{
-    padding:35px;
-    margin-top:30px;
-    box-shadow:0px 0px 5px 6px #f1f1f1;
-    width:75%;
-     h4{display: flex;
-       flex-direction: column;
-       align-items: center;
-       text-align: center;}
-       span{font-weight: bold;}
-       .top{display: flex;
-            flex-direction: column;
-            align-items: center;}
-       
-  }
-
-i{font-size:60px;
+i {
+  font-size: 60px;
   margin-bottom: 15px;
   background: -webkit-linear-gradient(right, #f78f6a, #f04a5e);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;}
-  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-p{display: flex;
+p {
+  display: flex;
   justify-content: space-between;
-  padding:0 45px 0 45px;}
+  padding: 0 45px 0 45px;
+}
 
-.title{
+.title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.shape2{
+.shape2 {
   clip-path: polygon(22% 34%, 100% 46%, 22% 57%, 0 45%);
-  width:300px;
-  height:50px;
+  width: 300px;
+  height: 50px;
 }
 
-.shape1{
+.shape1 {
   clip-path: polygon(75% 34%, 100% 46%, 75% 54%, 0 45%);
-  width:300px;
-  height:50px;}
+  width: 300px;
+  height: 50px;
+}
 
-.shape3{
-  width:350px;
-  height:8px;
-  border-bottom-left-radius:100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));
-      }
+.shape3 {
+  width: 350px;
+  height: 8px;
+  border-bottom-left-radius: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(darkblue),
+    to(blue)
+  );
+}
 
-.shape4{
-  width:350px;
-  height:8px;
-  border-bottom-right-radius:100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(blue));;
-      }
-      
-.top h3{font-size:55px;}
-.top i{font-size:80px;}
+.shape4 {
+  width: 350px;
+  height: 8px;
+  border-bottom-right-radius: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(darkblue),
+    to(blue)
+  );
+}
 
-.first{
-  h4{
-  font-family: 'Nanum Pen Script', cursive;
-  font-size:35px;
-  color:$color-fourth;
-  padding:0 25px 5px 25px;
-  @include underline;
-  background-image:linear-gradient($color-fourth,$color-fourth);}
-  p{font-family: 'Nanum Pen Script', cursive;
-    font-size:25px;
-    color:$color-fourth;}
-    span{font-weight: bold;}
-    .shape{
-      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-      width:300px;
-      height: 100px;
-      background-color:$color-fourth;}
-      .bottom{display: flex;
-        flex-direction: column;
-        align-items: center;}
-    }
+.top h3 {
+  font-size: 55px;
+}
+.top i {
+  font-size: 80px;
+}
 
-  .second{
-    h3{font-size:40px;
-       @include first-gradient;
-       font-family: 'Croissant One', cursive;}
-    h4{font-size: 20px;}
-    h4, p{font-family: "Montserrat", sans-serif;};
+.first {
+  h4 {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 35px;
+    color: $color-fourth;
+    padding: 0 25px 5px 25px;
+    @include underline;
+    background-image: linear-gradient($color-fourth, $color-fourth);
   }
-
-  .dish1{
-      h4{
-      padding:0 25px 5px 25px;
-      @include underline;
-      background-image:linear-gradient($color-menu2-1,$color-menu2-1)}
-      .shape1, .shape2{background-color: $color-menu2-1;}
-      h4, p{color:$color-menu2-1;}
-      }
-  
-  .dish2{
-        h4{
-        padding:0 25px 5px 25px;
-        @include underline;
-        background-image:linear-gradient($color-menu2-2,$color-menu2-2)}
-        .shape1, .shape2{background-color: $color-menu2-2;}
-        h4, p{color:$color-menu2-2;}
-        }
-  
-  .dish3{
-        h4{
-        padding:0 25px 5px 25px;
-        @include underline;
-        background-image:linear-gradient($color-menu2-3,$color-menu2-3)}
-        .shape1, .shape2{background-color: $color-menu2-3}
-        h4, p{color:$color-menu2-3;}
-        }
-  
-
-.third{
-  h3{@include second-gradient;
-    font-family: 'Dancing Script', cursive;
-    font-size:45px;}
-  h4{
-  font-family:'Charm', cursive;
-  font-size:30px;
-  padding:5px 25px 5px 25px;
-  @include underline;
-  background-image:linear-gradient($color-menu3, $color-menu3);}
-  p{font-family:'Charm', cursive;
-    font-size:20px;}
-    span{font-weight: bold;}
+  p {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 25px;
+    color: $color-fourth;
+  }
+  span {
+    font-weight: bold;
+  }
+  .shape {
+    clip-path: polygon(
+      31% 49%,
+      71% 47%,
+      100% 49%,
+      100% 55%,
+      60% 55%,
+      0 55%,
+      1% 47%
+    );
+    width: 300px;
+    height: 100px;
+    background-color: $color-fourth;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.fourth{
-  h3{@include third-gradient;
-    font-family: 'Kaushan Script', cursive;
-    font-size:45px;}
-  h4{
-  font-family:'Charm', cursive;
-  font-size:30px;
-  padding:0 25px 5px 25px;
-  @include underline;
-  background-image:linear-gradient($color-menu4,$color-menu4);}
-  p{font-family:'Charm', cursive;
-    font-size:20px;}
-    span{font-weight:bold;}
-    .shape{
-      clip-path: polygon(31% 49%, 71% 47%, 100% 49%, 100% 55%, 60% 55%, 0 55%, 1% 47%);
-      width:300px;
-      height: 100px;
-      background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(lightgreen));
-    }
+.second {
+  h3 {
+    font-size: 40px;
+    @include first-gradient;
+    font-family: "Croissant One", cursive;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h4,
+  p {
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
-    
+.dish1 {
+  h4 {
+    padding: 0 25px 5px 25px;
+    @include underline;
+    background-image: linear-gradient($color-menu2-1, $color-menu2-1);
+  }
+  .shape1,
+  .shape2 {
+    background-color: $color-menu2-1;
+  }
+  h4,
+  p {
+    color: $color-menu2-1;
+  }
+}
+
+.dish2 {
+  h4 {
+    padding: 0 25px 5px 25px;
+    @include underline;
+    background-image: linear-gradient($color-menu2-2, $color-menu2-2);
+  }
+  .shape1,
+  .shape2 {
+    background-color: $color-menu2-2;
+  }
+  h4,
+  p {
+    color: $color-menu2-2;
+  }
+}
+
+.dish3 {
+  h4 {
+    padding: 0 25px 5px 25px;
+    @include underline;
+    background-image: linear-gradient($color-menu2-3, $color-menu2-3);
+  }
+  .shape1,
+  .shape2 {
+    background-color: $color-menu2-3;
+  }
+  h4,
+  p {
+    color: $color-menu2-3;
+  }
+}
+
+.third {
+  h3 {
+    @include second-gradient;
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+  }
+  h4 {
+    font-family: "Charm", cursive;
+    font-size: 30px;
+    padding: 5px 25px 5px 25px;
+    @include underline;
+    background-image: linear-gradient($color-menu3, $color-menu3);
+  }
+  p {
+    font-family: "Charm", cursive;
+    font-size: 20px;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+
+.fourth {
+  h3 {
+    @include third-gradient;
+    font-family: "Kaushan Script", cursive;
+    font-size: 45px;
+  }
+  h4 {
+    font-family: "Charm", cursive;
+    font-size: 30px;
+    padding: 0 25px 5px 25px;
+    @include underline;
+    background-image: linear-gradient($color-menu4, $color-menu4);
+  }
+  p {
+    font-family: "Charm", cursive;
+    font-size: 20px;
+  }
+  span {
+    font-weight: bold;
+  }
+  .shape {
+    clip-path: polygon(
+      31% 49%,
+      71% 47%,
+      100% 49%,
+      100% 55%,
+      60% 55%,
+      0 55%,
+      1% 47%
+    );
+    width: 300px;
+    height: 100px;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(darkgreen),
+      to(lightgreen)
+    );
+  }
+}

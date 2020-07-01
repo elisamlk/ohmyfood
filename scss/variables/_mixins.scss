@@ -1,33 +1,40 @@
-@mixin first-gradient{
-  background: -webkit-linear-gradient(top,#FB8C00,#F48FB1,#3F51B5);
+@mixin first-gradient {
+  background: -webkit-linear-gradient(top, #fb8c00, #f48fb1, #3f51b5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  }
-
-@mixin second-gradient{
-    background: -webkit-linear-gradient(top,#010641,#0329ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
- }
-
-@mixin third-gradient{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(2, 49, 2)), to(rgb(62, 255, 62)));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
-@mixin underline{
-    
-    margin-left: auto;// Pour le centrer
-    margin-right: auto;// Pour le centrer
-    font-weight: bold;
-    text-align: center;
-    bottom: 38px;
-    right: 7px;
-    background-position: 0% 100%;// Pour effet sousligné
-    background-repeat: no-repeat;// Pour effet sousligné
-    background-size: 0% 5px;// Pour effet sousligné
-    transition: background-size .4s;// Pour effet sousligné
-    &:hover {// Pour effet sousligné
-      background-size: 100% 5px;}// Pour effet sousligné
-    }
+@mixin second-gradient {
+  background: -webkit-linear-gradient(top, #010641, #0329ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin third-gradient {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(2, 49, 2)),
+    to(rgb(62, 255, 62))
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin underline {
+  margin-left: auto; // Pour le centrer
+  margin-right: auto; // Pour le centrer
+  font-weight: bold;
+  text-align: center;
+  bottom: 38px;
+  right: 7px;
+  background-position: 0% 100%; // Pour effet sousligné
+  background-repeat: no-repeat; // Pour effet sousligné
+  background-size: 0% 5px; // Pour effet sousligné
+  transition: background-size 0.4s; // Pour effet sousligné
+  &:hover {
+    // Pour effet sousligné
+    background-size: 100% 5px;
+  } // Pour effet sousligné
+}
