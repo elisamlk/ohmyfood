@@ -70,7 +70,7 @@ header {
 header h1 {
   color: #ffb74d;
   font-size: 65px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {
@@ -96,7 +96,7 @@ footer a {
   text-decoration: none;
   font-size: 30px;
   color: #ffb74d;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer a:hover {
@@ -167,33 +167,37 @@ main h2 {
   background-color: #ffebee;
 }
 
-.first a, .first h3 {
-  font-family: 'Devonshire', cursive;
+.first a,
+.first h3 {
+  font-family: "Devonshire", cursive;
   color: #4e342e;
   font-size: 35px;
 }
 
-.second a, .second h2 {
-  background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
+.second a,
+.second h2 {
+  background: -webkit-linear-gradient(top, #fb8c00, #f48fb1, #3f51b5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: 'Croissant One', cursive;
+  font-family: "Croissant One", cursive;
   font-size: 35px;
 }
 
-.third a, .third h2 {
+.third a,
+.third h2 {
   background: -webkit-linear-gradient(top, #010641, #0329ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 50px;
 }
 
-.fourth a, .fourth h2 {
+.fourth a,
+.fourth h2 {
   background: -webkit-gradient(linear, left top, left bottom, from(#023102), to(#3eff3e));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   font-size: 45px;
 }
 
@@ -221,7 +225,7 @@ button {
   color: #ffb74d;
   border-radius: 20px;
   margin-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 button span {
@@ -254,7 +258,8 @@ button span:nth-child(3) {
   font-size: 35px;
 }
 
-.text p, .text h5 {
+.text p,
+.text h5 {
   font-family: "Montserrat", sans-serif;
   text-align: justify;
 }
@@ -313,6 +318,10 @@ header a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.carte h3 {
+  text-align: center;
 }
 
 i {
@@ -382,7 +391,7 @@ p {
 }
 
 .first h4 {
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: "Nanum Pen Script", cursive;
   font-size: 35px;
   color: #4e342e;
   padding: 0 25px 5px 25px;
@@ -395,8 +404,8 @@ p {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
-  -webkit-transition: background-size .4s;
-  transition: background-size .4s;
+  -webkit-transition: background-size 0.4s;
+  transition: background-size 0.4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#4e342e), to(#4e342e));
   background-image: linear-gradient(#4e342e, #4e342e);
 }
@@ -406,7 +415,7 @@ p {
 }
 
 .first p {
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: "Nanum Pen Script", cursive;
   font-size: 25px;
   color: #4e342e;
 }
@@ -438,17 +447,18 @@ p {
 
 .second h3 {
   font-size: 40px;
-  background: -webkit-linear-gradient(top, #FB8C00, #F48FB1, #3F51B5);
+  background: -webkit-linear-gradient(top, #fb8c00, #f48fb1, #3f51b5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: 'Croissant One', cursive;
+  font-family: "Croissant One", cursive;
 }
 
 .second h4 {
   font-size: 20px;
 }
 
-.second h4, .second p {
+.second h4,
+.second p {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -463,8 +473,8 @@ p {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
-  -webkit-transition: background-size .4s;
-  transition: background-size .4s;
+  -webkit-transition: background-size 0.4s;
+  transition: background-size 0.4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#c67412), to(#c67412));
   background-image: linear-gradient(#c67412, #c67412);
 }
@@ -473,11 +483,13 @@ p {
   background-size: 100% 5px;
 }
 
-.dish1 .shape1, .dish1 .shape2 {
+.dish1 .shape1,
+.dish1 .shape2 {
   background-color: #c67412;
 }
 
-.dish1 h4, .dish1 p {
+.dish1 h4,
+.dish1 p {
   color: #c67412;
 }
 
@@ -492,8 +504,8 @@ p {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
-  -webkit-transition: background-size .4s;
-  transition: background-size .4s;
+  -webkit-transition: background-size 0.4s;
+  transition: background-size 0.4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#a56799), to(#a56799));
   background-image: linear-gradient(#a56799, #a56799);
 }
@@ -502,11 +514,13 @@ p {
   background-size: 100% 5px;
 }
 
-.dish2 .shape1, .dish2 .shape2 {
+.dish2 .shape1,
+.dish2 .shape2 {
   background-color: #a56799;
 }
 
-.dish2 h4, .dish2 p {
+.dish2 h4,
+.dish2 p {
   color: #a56799;
 }
 
@@ -521,8 +535,8 @@ p {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
-  -webkit-transition: background-size .4s;
-  transition: background-size .4s;
+  -webkit-transition: background-size 0.4s;
+  transition: background-size 0.4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6e4ccc), to(#6e4ccc));
   background-image: linear-gradient(#6e4ccc, #6e4ccc);
 }
@@ -531,11 +545,13 @@ p {
   background-size: 100% 5px;
 }
 
-.dish3 .shape1, .dish3 .shape2 {
+.dish3 .shape1,
+.dish3 .shape2 {
   background-color: #6e4ccc;
 }
 
-.dish3 h4, .dish3 p {
+.dish3 h4,
+.dish3 p {
   color: #6e4ccc;
 }
 
@@ -543,12 +559,12 @@ p {
   background: -webkit-linear-gradient(top, #010641, #0329ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 45px;
 }
 
 .third h4 {
-  font-family: 'Charm', cursive;
+  font-family: "Charm", cursive;
   font-size: 30px;
   padding: 5px 25px 5px 25px;
   margin-left: auto;
@@ -560,8 +576,8 @@ p {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
-  -webkit-transition: background-size .4s;
-  transition: background-size .4s;
+  -webkit-transition: background-size 0.4s;
+  transition: background-size 0.4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0d0df3), to(#0d0df3));
   background-image: linear-gradient(#0d0df3, #0d0df3);
 }
@@ -571,7 +587,7 @@ p {
 }
 
 .third p {
-  font-family: 'Charm', cursive;
+  font-family: "Charm", cursive;
   font-size: 20px;
 }
 
@@ -583,12 +599,12 @@ p {
   background: -webkit-gradient(linear, left top, left bottom, from(#023102), to(#3eff3e));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   font-size: 45px;
 }
 
 .fourth h4 {
-  font-family: 'Charm', cursive;
+  font-family: "Charm", cursive;
   font-size: 30px;
   padding: 0 25px 5px 25px;
   margin-left: auto;
@@ -600,8 +616,8 @@ p {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
-  -webkit-transition: background-size .4s;
-  transition: background-size .4s;
+  -webkit-transition: background-size 0.4s;
+  transition: background-size 0.4s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(green), to(green));
   background-image: linear-gradient(green, green);
 }
@@ -611,7 +627,7 @@ p {
 }
 
 .fourth p {
-  font-family: 'Charm', cursive;
+  font-family: "Charm", cursive;
   font-size: 20px;
 }
 
